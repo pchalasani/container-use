@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "container-use"]
+	url = /Users/pchalasani/.config/container-use/repos/container-use-test
+	fetch = +refs/heads/*:refs/remotes/container-use/*
+[branch "python-hello-world/perfect-ant"]
+	remote = container-use
+	merge = refs/heads/python-hello-world/perfect-ant
